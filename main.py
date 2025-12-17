@@ -1,3 +1,5 @@
-age = 32
-print (age)
-my_full_name= 32
+# age = 32
+# print (age)
+# my_full_name= 32
+
+
