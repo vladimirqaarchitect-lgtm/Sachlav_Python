@@ -15,10 +15,12 @@
 # print(type(db_is_avialable))
 
 
-print(bool(10))
-print(bool("abc"))
-print(bool([]))
-print(bool([1, 2, 3]))
-print(bool(None))
+# print(bool(10))
+# print(bool("abc"))
+# print(bool([]))
+# print(bool([1, 2, 3]))
+# print(bool(None))
+
+
 
 
