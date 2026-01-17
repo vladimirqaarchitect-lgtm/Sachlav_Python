@@ -1,4 +1,4 @@
-my_shopping_list = ["milk", "bread", "eggs", " cheese", "butter"]
+my_shopping_list = ["milk", "bread", "eggs", "cheese", "butter"]
 
 my_shopping_list.append("juice")
 print(my_shopping_list)
@@ -6,7 +6,9 @@ print(my_shopping_list)
 my_shopping_list.insert(1, "joghurt")
 print(my_shopping_list)
 
-my_shopping_list[2] = "loaf"
+# my_shopping_list[2] = "loaf"
+index_bread = my_shopping_list.index("bread")
+my_shopping_list[index_bread] = "loaf"
 print(my_shopping_list)
 
 my_shopping_list.remove("butter")
@@ -20,7 +22,7 @@ print("Последний элемент:", my_shopping_list[-1])
 
 print(my_shopping_list[1:4])
 
-my_shopping_list.sort()
+# my_shopping_list.sort()
 print(my_shopping_list)
 
 print(my_shopping_list)
